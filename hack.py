@@ -20,3 +20,4 @@ for password in passwfile :
              
        except smtplib.SMTPAuthenticationError:
                print ("[!] Password is incorrect ===>  ",password) 
+                     
